@@ -290,11 +290,11 @@
     }
 
     input[type="email"]{
-        @apply mt-0 max-w-full lg:w-[520px] !important;
+        @apply mt-0 w-full max-w-full lg:w-[450px] !important;
     }
 
     input[type="submit"]{
-        @apply w-full lg:mt-0 !important;
+        @apply mt-3 w-full lg:mt-0 lg:w-auto !important;
     }
 }
 

@@ -2576,21 +2576,24 @@ blockquote p {
 }
 .homeGridContainer input[type="email"] {
   margin-top: 0px !important;
+  width: 100% !important;
   max-width: 100% !important;
 }
 @media (min-width: 1024px) {
 
   .homeGridContainer input[type="email"] {
-    width: 520px !important;
+    width: 450px !important;
   }
 }
 .homeGridContainer input[type="submit"] {
+  margin-top: 0.75rem !important;
   width: 100% !important;
 }
 @media (min-width: 1024px) {
 
   .homeGridContainer input[type="submit"] {
     margin-top: 0px !important;
+    width: auto !important;
   }
 }
 .visible {
