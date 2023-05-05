@@ -1656,9 +1656,11 @@ blockquote p {
   color: rgb(78 79 83 / var(--tw-text-opacity));
 }
 .subscription_form label {
+  padding-right: 0.25rem !important;
   font-weight: 700 !important;
   --tw-text-opacity: 1 !important;
   color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+    font-size: 14px !important;
 }
 .subscription_form label, .newsletter label {
   font-weight: 700;

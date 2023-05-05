@@ -36,7 +36,8 @@
 }
 
 .subscription_form label{
-    @apply font-bold text-black !important;
+    @apply font-bold pr-1 text-black !important;
+    font-size: 14px !important;
 }
 
 .subscription_form, .newsletter {
