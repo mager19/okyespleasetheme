@@ -2090,6 +2090,7 @@ blockquote p {
         height: 250px;
         width: 100%;
         overflow: hidden;
+        margin: 0;
 }
 .item__collection img {
         border-radius: 0px;
@@ -2518,6 +2519,67 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(78 79 83 / var(--tw-text-opacity));
 }
+.homeGridContainer {
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+.homeGridContainer{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "grid1 grid2 grid3"
+            "grid4 grid5 grid5"
+}
+    
+    
+            .homeGridContainer .item__homeGridCollecton-5{
+
+                grid-area: grid5;
+            }
+    }
+.homeGridContainer .item__homeGridCollecton-5 {
+  height: 350px;
+}
+@media (min-width: 768px) {
+
+  .homeGridContainer .item__homeGridCollecton-5 {
+    height: 250px;
+  }
+}
+.homeGridContainer .item__homeGridCollecton-5 .content {
+  display: flex;
+  height: 100%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+            border:1px solid #ccc;
+}
+.homeGridContainer .item__homeGridCollecton-5 .content .newsletter form {
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 55 99 / var(--tw-bg-opacity));
+}
+.homeGridContainer .newsletter {
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(176 55 99 / var(--tw-bg-opacity));
+  padding: 1rem;
+}
+.homeGridContainer .subscription_form, .homeGridContainer .mc4wp-form {
+  margin-top: 0px;
+}
+@media (min-width: 1024px) {
+
+  .homeGridContainer input[type="email"] {
+    max-width: 520px;
+  }
+}
+.homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
+  margin-top: 0px;
+}
 .visible {
   visibility: visible;
 }
@@ -2690,6 +2752,9 @@ blockquote p {
 }
 .p-0 {
   padding: 0px;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -2891,6 +2956,10 @@ blockquote p {
 
   .lg\:w-screen {
     width: 100vw;
+  }
+
+  .lg\:max-w-\[500px\] {
+    max-width: 500px;
   }
 
   .lg\:grid-cols-3 {

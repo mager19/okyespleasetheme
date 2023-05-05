@@ -246,3 +246,52 @@
         }
     }
 }
+
+.homeGridContainer{
+    @apply grid gap-6 grid-cols-1;
+
+    @screen md {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+            "grid1 grid2 grid3"
+            "grid4 grid5 grid5";
+    
+    
+            .item__homeGridCollecton-5{
+
+                grid-area: grid5;
+            }
+    }
+
+    .item__homeGridCollecton-5{
+        @apply h-[350px] md:h-[250px];
+
+        .content{
+            @apply h-full flex flex-wrap content-center justify-center text-center ;
+            border:1px solid #ccc;
+
+            .newsletter form{
+                @apply bg-[#b03763];
+            }
+        }
+    }
+
+    .newsletter{
+        @apply bg-[#b03763] p-4 mt-4 rounded;
+    }
+
+    .subscription_form, .mc4wp-form{
+        @apply mt-0;
+    }
+
+    input[type="email"]{
+        @apply lg:max-w-[520px];
+    }
+
+    input[type="submit"], input[type="email"]{
+        @apply mt-0;
+    }
+}
+
+
