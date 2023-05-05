@@ -2574,6 +2574,9 @@ blockquote p {
 .homeGridContainer .subscription_form label,.homeGridContainer .mc4wp-form label {
   display: none;
 }
+.homeGridContainer input[type="email"] {
+  max-width: 100% !important;
+}
 @media (min-width: 1024px) {
 
   .homeGridContainer input[type="email"] {

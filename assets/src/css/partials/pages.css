@@ -290,7 +290,7 @@
     }
 
     input[type="email"]{
-        @apply lg:w-[520px] !important;
+        @apply max-w-full lg:w-[520px] !important;
     }
 
     input[type="submit"], input[type="email"]{
