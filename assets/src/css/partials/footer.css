@@ -35,7 +35,7 @@
     }
 }
 
-.newsletter {
+.subscription_form {
     label {
         @apply font-bold;
     }
@@ -53,7 +53,7 @@
     }
 }
 
-.newsletter .subscription_form {
+.newsletter form {
     @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
 
     .wpcf7-response-output {

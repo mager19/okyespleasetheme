@@ -1655,29 +1655,29 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(78 79 83 / var(--tw-text-opacity));
 }
-.newsletter label {
+.subscription_form label {
   font-weight: 700;
 }
-.newsletter input {
+.subscription_form input {
         border: none;
         height: 50px;
     }
-.newsletter input::-moz-placeholder {
+.subscription_form input::-moz-placeholder {
   padding-left: 0.5rem;
 }
-.newsletter input::placeholder {
+.subscription_form input::placeholder {
   padding-left: 0.5rem;
 }
-.newsletter input[type="email"] {
+.subscription_form input[type="email"] {
   max-width: 200px;
 }
 @media (min-width: 1024px) {
 
-  .newsletter input[type="email"] {
+  .subscription_form input[type="email"] {
     max-width: 320px;
   }
 }
-.newsletter .subscription_form {
+.newsletter form {
   position: relative;
   margin-top: 1rem;
   display: flex;
@@ -1686,32 +1686,32 @@ blockquote p {
 }
 @media (min-width: 1024px) {
 
-  .newsletter .subscription_form {
+  .newsletter form {
     margin-top: 0px;
     justify-content: flex-start;
   }
 }
-.newsletter .subscription_form .wpcf7-response-output {
+.newsletter form .wpcf7-response-output {
         position: absolute;
         bottom: -50px;
     }
-.newsletter .subscription_form input {
+.newsletter form input {
   margin-top: 1.5rem;
   padding-left: 0.5rem;
 }
 @media (min-width: 1024px) {
 
-  .newsletter .subscription_form input {
+  .newsletter form input {
     margin-top: 0.5rem;
   }
 }
-.newsletter .subscription_form p {
+.newsletter form p {
         margin-bottom: 0;
     }
-.newsletter .subscription_form p:nth-child(3) {
+.newsletter form p:nth-child(3) {
   align-self: flex-end;
 }
-.newsletter .subscription_form p:nth-child(3) img {
+.newsletter form p:nth-child(3) img {
             position: absolute;
             opacity: 0;
         }
