@@ -1001,3 +1001,18 @@ blockquote {
         @apply text-black hover:underline;
     }
 }
+
+
+.custom-pagination{
+    @apply text-center mt-8;
+   a{
+    @apply text-gray-400 visited:text-gray-400 no-underline !important;
+   } 
+
+   .current{
+    @apply bg-dark-1 text-white inline-flex justify-center items-center;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+   }
+}

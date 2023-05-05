@@ -111,6 +111,12 @@ $queried_object = get_queried_object();
         <?php endforeach;
         wp_reset_postdata(); ?>
     </div>
+
+    <div class="w-full px-4 pb-8 lg:pb-12">
+        <div class="pagination">
+            <?php baseTheme__pagination($wp_query->max_num_pages, "", $paged); ?>
+        </div>
+    </div>
 </div><!-- #main -->
 <?php
 get_footer();
