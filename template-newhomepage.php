@@ -72,10 +72,10 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="latest__collections py-8 lg:pt-2 lg:pb-0">
+<div class="latest__collections py-8 lg:pt-2 lg:pb-10">
     <div class="container mx-auto">
         <?php
-        $args = array('post_type' => 'collection', 'posts_per_page' => 15, 'offset' => 4);
+        $args = array('post_type' => 'collection', 'posts_per_page' => 16, 'offset' => 4);
         $loop = new WP_Query($args);
         if ($loop->have_posts()) : ?>
             <div class="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4 mt-2">
