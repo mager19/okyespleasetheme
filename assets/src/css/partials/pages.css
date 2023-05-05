@@ -294,7 +294,7 @@
     }
 
     input[type="submit"], input[type="email"]{
-        @apply mt-0;
+        @apply w-full lg:mt-0 !important;
     }
 }
 

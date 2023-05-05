@@ -2581,7 +2581,13 @@ blockquote p {
   }
 }
 .homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
-  margin-top: 0px;
+  width: 100% !important;
+}
+@media (min-width: 1024px) {
+
+  .homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
+    margin-top: 0px !important;
+  }
 }
 .visible {
   visibility: visible;
