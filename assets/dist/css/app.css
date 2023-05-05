@@ -2304,7 +2304,7 @@ blockquote p {
 @media (min-width: 1024px) {
 
   .item__products figure {
-    height: 100%;
+    height: 350px;
   }
 }
 .item__products figure {

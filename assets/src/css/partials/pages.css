@@ -91,7 +91,7 @@
     }
 
     figure {
-        @apply h-[250px] lg:h-[100%];
+        @apply h-[250px] lg:h-[350px];
         width: 100%;
         margin: 0;
 
