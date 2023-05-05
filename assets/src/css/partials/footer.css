@@ -51,6 +51,18 @@
     input[type="email"] {
         @apply max-w-[200px] lg:max-w-[320px];
     }
+
+    input[type="submit"] {
+        border: 1px solid;
+        border-color: #ccc #ccc #bbb;
+        border-radius: 0px;
+        background: #e6e6e6;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 1;
+        padding: 0.6em 1em 0.4em;
+    }
 }
 
 .newsletter form, .subscription_form {
