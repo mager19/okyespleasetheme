@@ -1677,7 +1677,7 @@ blockquote p {
     max-width: 320px;
   }
 }
-#wpcf7-f59-o1 form {
+.newsletter form {
   position: relative;
   margin-top: 1rem;
   display: flex;
@@ -1686,32 +1686,32 @@ blockquote p {
 }
 @media (min-width: 1024px) {
 
-  #wpcf7-f59-o1 form {
+  .newsletter form {
     margin-top: 0px;
     justify-content: flex-start;
   }
 }
-#wpcf7-f59-o1 form .wpcf7-response-output {
+.newsletter form .wpcf7-response-output {
         position: absolute;
         bottom: -50px;
     }
-#wpcf7-f59-o1 form input {
+.newsletter form input {
   margin-top: 1.5rem;
   padding-left: 0.5rem;
 }
 @media (min-width: 1024px) {
 
-  #wpcf7-f59-o1 form input {
+  .newsletter form input {
     margin-top: 0.5rem;
   }
 }
-#wpcf7-f59-o1 form p {
+.newsletter form p {
         margin-bottom: 0;
     }
-#wpcf7-f59-o1 form p:nth-child(3) {
+.newsletter form p:nth-child(3) {
   align-self: flex-end;
 }
-#wpcf7-f59-o1 form p:nth-child(3) img {
+.newsletter form p:nth-child(3) img {
             position: absolute;
             opacity: 0;
         }

@@ -53,7 +53,7 @@
     }
 }
 
-#wpcf7-f59-o1 form {
+.newsletter form {
     @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
 
     .wpcf7-response-output {
