@@ -2584,12 +2584,12 @@ blockquote p {
     width: 520px !important;
   }
 }
-.homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
+.homeGridContainer input[type="submit"] {
   width: 100% !important;
 }
 @media (min-width: 1024px) {
 
-  .homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
+  .homeGridContainer input[type="submit"] {
     margin-top: 0px !important;
   }
 }

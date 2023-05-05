@@ -293,7 +293,7 @@
         @apply mt-0 max-w-full lg:w-[520px] !important;
     }
 
-    input[type="submit"], input[type="email"]{
+    input[type="submit"]{
         @apply w-full lg:mt-0 !important;
     }
 }
