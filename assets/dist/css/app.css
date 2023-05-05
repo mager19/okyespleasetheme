@@ -1655,28 +1655,39 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(78 79 83 / var(--tw-text-opacity));
 }
-.subscription_form label {
+.subscription_form label, .newsletter label {
   font-weight: 700;
 }
-.subscription_form input {
+.subscription_form input, .newsletter input {
         border: none;
         height: 50px;
     }
-.subscription_form input::-moz-placeholder {
+.subscription_form input::-moz-placeholder, .newsletter input::-moz-placeholder {
   padding-left: 0.5rem;
 }
-.subscription_form input::placeholder {
+.subscription_form input::placeholder, .newsletter input::placeholder {
   padding-left: 0.5rem;
 }
-.subscription_form input[type="email"] {
+.subscription_form input[type="email"], .newsletter input[type="email"] {
   max-width: 200px;
 }
 @media (min-width: 1024px) {
 
-  .subscription_form input[type="email"] {
+  .subscription_form input[type="email"], .newsletter input[type="email"] {
     max-width: 320px;
   }
 }
+.subscription_form input[type="submit"], .newsletter input[type="submit"] {
+        border: 1px solid;
+        border-color: #ccc #ccc #bbb;
+        border-radius: 0px;
+        background: #e6e6e6;
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 1;
+        padding: 0.6em 1em 0.4em;
+    }
 .newsletter form {
   position: relative;
   margin-top: 1rem;
