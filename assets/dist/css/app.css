@@ -2571,10 +2571,13 @@ blockquote p {
 .homeGridContainer .subscription_form, .homeGridContainer .mc4wp-form {
   margin-top: 0px;
 }
+.homeGridContainer .subscription_form label,.homeGridContainer .mc4wp-form label {
+  display: none;
+}
 @media (min-width: 1024px) {
 
   .homeGridContainer input[type="email"] {
-    max-width: 520px;
+    max-width: 520px !important;
   }
 }
 .homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {

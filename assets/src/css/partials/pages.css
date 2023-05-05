@@ -283,10 +283,14 @@
 
     .subscription_form, .mc4wp-form{
         @apply mt-0;
+
+        label{
+            @apply hidden;
+        }
     }
 
     input[type="email"]{
-        @apply lg:max-w-[520px];
+        @apply lg:max-w-[520px] !important;
     }
 
     input[type="submit"], input[type="email"]{
