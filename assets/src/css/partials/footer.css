@@ -35,7 +35,7 @@
     }
 }
 
-.subscription_form {
+.subscription_form, .newsletter {
     label {
         @apply font-bold;
     }
@@ -53,7 +53,7 @@
     }
 }
 
-.newsletter form {
+.newsletter form, .subscription_form {
     @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
 
     .wpcf7-response-output {
@@ -89,9 +89,9 @@
     position: absolute;
 }
 
-.btn--subscribe {
+.btn--subscribe, .subscription_form input[type="submit"] {
     @apply bg-black text-white font-bold relative  !important;
-
+    
     cursor: pointer;
     font-size: 1rem !important;
     letter-spacing: 0.1rem;

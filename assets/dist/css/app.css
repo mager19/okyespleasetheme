@@ -1655,29 +1655,29 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(78 79 83 / var(--tw-text-opacity));
 }
-.subscription_form label {
+.subscription_form label, .newsletter label {
   font-weight: 700;
 }
-.subscription_form input {
+.subscription_form input, .newsletter input {
         border: none;
         height: 50px;
     }
-.subscription_form input::-moz-placeholder {
+.subscription_form input::-moz-placeholder, .newsletter input::-moz-placeholder {
   padding-left: 0.5rem;
 }
-.subscription_form input::placeholder {
+.subscription_form input::placeholder, .newsletter input::placeholder {
   padding-left: 0.5rem;
 }
-.subscription_form input[type="email"] {
+.subscription_form input[type="email"], .newsletter input[type="email"] {
   max-width: 200px;
 }
 @media (min-width: 1024px) {
 
-  .subscription_form input[type="email"] {
+  .subscription_form input[type="email"], .newsletter input[type="email"] {
     max-width: 320px;
   }
 }
-.newsletter form {
+.newsletter form, .subscription_form {
   position: relative;
   margin-top: 1rem;
   display: flex;
@@ -1686,32 +1686,32 @@ blockquote p {
 }
 @media (min-width: 1024px) {
 
-  .newsletter form {
+  .newsletter form, .subscription_form {
     margin-top: 0px;
     justify-content: flex-start;
   }
 }
-.newsletter form .wpcf7-response-output {
+.newsletter form .wpcf7-response-output, .subscription_form .wpcf7-response-output {
         position: absolute;
         bottom: -50px;
     }
-.newsletter form input {
+.newsletter form input, .subscription_form input {
   margin-top: 1.5rem;
   padding-left: 0.5rem;
 }
 @media (min-width: 1024px) {
 
-  .newsletter form input {
+  .newsletter form input, .subscription_form input {
     margin-top: 0.5rem;
   }
 }
-.newsletter form p {
+.newsletter form p, .subscription_form p {
         margin-bottom: 0;
     }
-.newsletter form p:nth-child(3) {
+.newsletter form p:nth-child(3), .subscription_form p:nth-child(3) {
   align-self: flex-end;
 }
-.newsletter form p:nth-child(3) img {
+.newsletter form p:nth-child(3) img, .subscription_form p:nth-child(3) img {
             position: absolute;
             opacity: 0;
         }
@@ -1727,14 +1727,14 @@ blockquote p {
 .wpcf7-spinner {
     position: absolute;
 }
-.btn--subscribe {
+.btn--subscribe, .subscription_form input[type="submit"] {
   position: relative !important;
   --tw-bg-opacity: 1 !important;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
   font-weight: 700 !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-
+    
     cursor: pointer;
     font-size: 1rem !important;
     letter-spacing: 0.1rem;
@@ -1742,7 +1742,7 @@ blockquote p {
 
     transition: all 0.2s linear;
 }
-.btn--subscribe:hover {
+.btn--subscribe:hover, .subscription_form input[type="submit"]:hover {
         opacity: 0.6;
     }
 .copyright p {
