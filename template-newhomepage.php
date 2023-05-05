@@ -54,7 +54,7 @@ get_header(); ?>
 
                 <div class="newsletter__home item__homeGridCollecton-5 ">
                     <div class="content p-2">
-                        <h3 class="title mb-0 lg:max-w-[500px]">
+                        <h3 class="title mb-0 lg:max-w-[500px] text-black">
                             Sign up for my newsletter to recieve a weekly dose of window shopping.
                         </h3>
 
