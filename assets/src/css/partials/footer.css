@@ -35,6 +35,10 @@
     }
 }
 
+.subscription_form label{
+    @apply font-bold text-black !important;
+}
+
 .subscription_form, .newsletter {
     label {
         @apply font-bold;
@@ -66,7 +70,7 @@
 }
 
 .newsletter form, .subscription_form {
-    @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
+    @apply flex flex-wrap items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
 
     .wpcf7-response-output {
         position: absolute;
