@@ -3049,6 +3049,14 @@ blockquote p {
     padding-top: 0.5rem;
   }
 
+  .lg\:pb-0 {
+    padding-bottom: 0px;
+  }
+
+  .lg\:pb-2 {
+    padding-bottom: 0.5rem;
+  }
+
   .lg\:text-left {
     text-align: left;
   }

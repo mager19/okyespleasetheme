@@ -15,7 +15,7 @@
 
 get_header(); ?>
 
-<div class="homeGrid py-8 lg:pt-2 lg:pb-10">
+<div class="homeGrid pt-8 lg:pt-2 lg:pb-2">
     <div class="container mx-auto">
         <?php
         $args = array('post_type' => 'collection', 'posts_per_page' => 4);
@@ -72,7 +72,7 @@ get_header(); ?>
     </div>
 </div>
 
-<div class="latest__collections py-8 lg:pt-2 lg:pb-10">
+<div class="latest__collections py-8 lg:pt-2 lg:pb-0">
     <div class="container mx-auto">
         <?php
         $args = array('post_type' => 'collection', 'posts_per_page' => 15, 'offset' => 4);
