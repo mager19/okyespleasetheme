@@ -2577,7 +2577,7 @@ blockquote p {
 @media (min-width: 1024px) {
 
   .homeGridContainer input[type="email"] {
-    max-width: 520px !important;
+    width: 520px !important;
   }
 }
 .homeGridContainer input[type="submit"], .homeGridContainer input[type="email"] {
