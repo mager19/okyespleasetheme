@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+@import "./partials/base.css";
+@import "./partials/nav.css";
+@import "./partials/footer.css";
+@import "./partials/icons.css";
+@import "./partials/home.css";
+@import "./partials/footer.css";
+@import "./partials/pages.css";
+
+@import "tailwindcss/utilities";
+
+@layer {
+    .bgSettings {
+        @apply bg-cover bg-no-repeat bg-center;
+    }
+}

@@ -1,0 +1,145 @@
+.latest__collections {
+    .title {
+        @apply flex items-center;
+        text-transform: capitalize !important;
+
+        svg {
+            @apply mr-4;
+        }
+    }
+}
+
+.item__collection {
+    cursor: pointer;
+    figure {
+        @apply bg-secondary;
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+    }
+    img {
+        border-radius: 0px;
+
+        object-fit: cover;
+        aspect-ratio: 3/2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        svg {
+            @apply mr-2 !important;
+        }
+
+        &:hover {
+            @apply hover:underline;
+        }
+    }
+}
+
+.item__collection__cat {
+    cursor: pointer;
+    figure {
+        @apply bg-secondary;
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+    }
+    img {
+        border-radius: 0px;
+
+        object-fit: cover;
+        aspect-ratio: 3/2;
+        width: 100%;
+        height: 100%;
+    }
+
+    .title {
+        @apply text-white;
+        svg {
+            @apply mr-2 !important;
+        }
+
+        &:hover {
+            @apply hover:underline;
+        }
+    }
+
+    a {
+        @apply relative;
+    }
+
+    .content {
+        @apply absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
+
+.menuModal {
+    .iziModal-content {
+        @apply bg-light-1;
+
+        .modal__content {
+            @apply px-7 !important;
+
+            img {
+                width: 50%;
+                height: auto;
+                object-fit: cover;
+                margin: 0 auto;
+            }
+
+            ul {
+                @apply ml-0 mt-5;
+
+                li {
+                    list-style: none;
+                    a {
+                        @apply text-dark-1 font-semibold;
+                        letter-spacing: 1px;
+                        transition: all 0.3s linear;
+
+                        &:hover {
+                            @apply text-secondary-lighter;
+                        }
+
+                        &:visited {
+                            @apply text-dark-1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal__header {
+    text-align: right;
+
+    button {
+        @apply bg-transparent border-0;
+
+        svg {
+            path {
+                stroke: #e7cfc4 !important;
+            }
+        }
+    }
+}
+
+.iziModal-content {
+    @apply px-4 pt-4 pb-8 !important;
+}
+
+.modalfoot {
+    img {
+        @apply flex mt-4 mb-8;
+    }
+    .iziModal-content {
+        @apply px-8 pt-4 pb-8 !important;
+    }
+}

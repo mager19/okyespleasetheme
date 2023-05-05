@@ -1,0 +1,105 @@
+.site__footer__logo {
+    img {
+        @apply mx-auto lg:ml-0;
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+    }
+}
+
+.menu-footer-container {
+    @apply w-full;
+}
+
+.footer-menu {
+    ul {
+        @apply ml-0 mt-4 mb-0 mx-auto text-center md:flex justify-between;
+
+        li {
+            @apply lg:inline-block md:mb-0;
+            list-style: none;
+
+            &:not(:last-child) {
+                @apply mr-0 lg:mr-6;
+            }
+
+            a {
+                @apply text-dark-1 font-bold hover:underline;
+                letter-spacing: 1px;
+
+                &:visited {
+                    @apply text-dark-1;
+                }
+            }
+        }
+    }
+}
+
+.newsletter {
+    label {
+        @apply font-bold;
+    }
+
+    input {
+        border: none;
+        height: 50px;
+
+        &::placeholder {
+            @apply pl-2;
+        }
+    }
+    input[type="email"] {
+        @apply max-w-[200px] lg:max-w-[320px];
+    }
+}
+
+#wpcf7-f59-o1 form {
+    @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
+
+    .wpcf7-response-output {
+        position: absolute;
+        bottom: -50px;
+    }
+
+    input {
+        @apply pl-2 mt-6 lg:mt-2;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+
+    p:nth-child(3) {
+        @apply self-end;
+
+        img {
+            position: absolute;
+            opacity: 0;
+        }
+    }
+}
+
+.wpcf7-spinner {
+    position: absolute;
+}
+
+.btn--subscribe {
+    @apply bg-black text-white font-bold relative  !important;
+
+    cursor: pointer;
+    font-size: 1rem !important;
+    letter-spacing: 0.1rem;
+    padding: 10px 20px !important;
+
+    transition: all 0.2s linear;
+
+    &:hover {
+        opacity: 0.6;
+    }
+}
+
+.copyright {
+    p {
+        @apply mb-0;
+    }
+}
