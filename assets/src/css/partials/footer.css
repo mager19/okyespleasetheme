@@ -53,7 +53,7 @@
     }
 }
 
-.newsletter form {
+.newsletter .subscription_form {
     @apply flex items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
 
     .wpcf7-response-output {
@@ -77,6 +77,12 @@
             opacity: 0;
         }
     }
+}
+
+
+
+.mc4wp-form-fields{
+    @apply text-center md:text-left;
 }
 
 .wpcf7-spinner {

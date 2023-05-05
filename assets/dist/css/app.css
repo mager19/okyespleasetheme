@@ -1677,7 +1677,7 @@ blockquote p {
     max-width: 320px;
   }
 }
-.newsletter form {
+.newsletter .subscription_form {
   position: relative;
   margin-top: 1rem;
   display: flex;
@@ -1686,35 +1686,44 @@ blockquote p {
 }
 @media (min-width: 1024px) {
 
-  .newsletter form {
+  .newsletter .subscription_form {
     margin-top: 0px;
     justify-content: flex-start;
   }
 }
-.newsletter form .wpcf7-response-output {
+.newsletter .subscription_form .wpcf7-response-output {
         position: absolute;
         bottom: -50px;
     }
-.newsletter form input {
+.newsletter .subscription_form input {
   margin-top: 1.5rem;
   padding-left: 0.5rem;
 }
 @media (min-width: 1024px) {
 
-  .newsletter form input {
+  .newsletter .subscription_form input {
     margin-top: 0.5rem;
   }
 }
-.newsletter form p {
+.newsletter .subscription_form p {
         margin-bottom: 0;
     }
-.newsletter form p:nth-child(3) {
+.newsletter .subscription_form p:nth-child(3) {
   align-self: flex-end;
 }
-.newsletter form p:nth-child(3) img {
+.newsletter .subscription_form p:nth-child(3) img {
             position: absolute;
             opacity: 0;
         }
+.mc4wp-form-fields {
+  text-align: center;
+}
+@media (min-width: 768px) {
+
+  .mc4wp-form-fields {
+    text-align: left;
+  }
+}
 .wpcf7-spinner {
     position: absolute;
 }
