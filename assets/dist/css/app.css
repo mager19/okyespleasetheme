@@ -1569,8 +1569,11 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
-.pum-container label {
+.pum-container .popmake-title {
   text-align: center !important;
+}
+.pum-container .subscription_form label {
+  width: 100% !important;
 }
 .site__nav ul {
   margin-bottom: 0px;

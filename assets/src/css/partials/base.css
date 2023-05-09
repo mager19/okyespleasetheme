@@ -1024,7 +1024,13 @@ blockquote {
         @apply text-center text-white;
     }
 
-    label{
+    .popmake-title{
         @apply text-center !important;
+    }
+
+    .subscription_form{
+        label{
+            @apply w-full !important; 
+        }
     }
 }
