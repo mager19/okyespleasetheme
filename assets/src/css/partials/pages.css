@@ -303,3 +303,8 @@
         @apply mt-3 w-full lg:mt-0 xl:w-auto !important;
     }
 }
+
+
+.subscription_form label {
+    @apply lg:text-right !important;
+}

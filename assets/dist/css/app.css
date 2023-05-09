@@ -2615,6 +2615,12 @@ blockquote p {
     width: auto !important;
   }
 }
+@media (min-width: 1024px) {
+
+  .subscription_form label {
+    text-align: right !important;
+  }
+}
 .visible {
   visibility: visible;
 }
