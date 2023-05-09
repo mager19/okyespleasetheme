@@ -71,7 +71,7 @@
 }
 
 .newsletter form, .subscription_form {
-    @apply flex flex-wrap items-center relative mt-4 lg:mt-0 justify-center lg:justify-start;
+    @apply flex flex-wrap items-center relative mt-4 lg:mt-0 justify-center lg:justify-end;
 
     .wpcf7-response-output {
         position: absolute;

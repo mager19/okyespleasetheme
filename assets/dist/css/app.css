@@ -1707,7 +1707,7 @@ blockquote p {
 
   .newsletter form, .subscription_form {
     margin-top: 0px;
-    justify-content: flex-start;
+    justify-content: flex-end;
   }
 }
 .newsletter form .wpcf7-response-output, .subscription_form .wpcf7-response-output {
