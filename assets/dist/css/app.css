@@ -1574,6 +1574,7 @@ blockquote p {
 }
 .pum-container .subscription_form label {
   width: 100% !important;
+  text-align: center !important;
 }
 .site__nav ul {
   margin-bottom: 0px;

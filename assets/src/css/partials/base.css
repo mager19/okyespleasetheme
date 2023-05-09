@@ -1030,7 +1030,7 @@ blockquote {
 
     .subscription_form{
         label{
-            @apply w-full !important; 
+            @apply w-full text-center !important; 
         }
     }
 }
