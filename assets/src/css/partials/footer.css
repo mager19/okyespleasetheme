@@ -24,11 +24,11 @@
             }
 
             a {
-                @apply text-dark-1 font-bold hover:underline;
+                @apply text-white font-bold hover:underline;
                 letter-spacing: 1px;
 
                 &:visited {
-                    @apply text-dark-1;
+                    @apply text-white;
                 }
             }
         }
@@ -59,9 +59,9 @@
 
     input[type="submit"] {
         border: 1px solid;
-        border-color: #ccc #ccc #bbb;
+        border-color: #788389;
         border-radius: 0px;
-        background: #e6e6e6;
+        background-color: #788389;
         color: rgba(0, 0, 0, 0.8);
         font-size: 12px;
         font-size: 0.75rem;
@@ -107,7 +107,7 @@
 }
 
 .btn--subscribe, .subscription_form input[type="submit"] {
-    @apply bg-black text-white font-bold relative  !important;
+    @apply text-white font-bold relative  !important;
     
     cursor: pointer;
     font-size: 1rem !important;
@@ -123,6 +123,6 @@
 
 .copyright {
     p {
-        @apply mb-0;
+        @apply mb-0 text-white;
     }
 }

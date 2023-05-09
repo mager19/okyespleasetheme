@@ -52,10 +52,10 @@ get_header(); ?>
                 <?php endwhile; ?>
                 <!-- post navigation -->
 
-                <div class="newsletter__home item__homeGridCollecton-5 ">
-                    <div class="content p-2">
-                        <h3 class="title mb-0 lg:max-w-[500px] text-black">
-                            Sign up for my newsletter to recieve a weekly dose of window shopping.
+                <div class="newsletter__home item__homeGridCollecton-5 bg-[#345C72]">
+                    <div class="content px-4">
+                        <h3 class="title mb-0 lg:max-w-[600px] text-white font-inter">
+                            Sign up for my newsletter to receive a weekly dose of window shopping delivered to your inbox.
                         </h3>
 
                         <div class="newsletter">

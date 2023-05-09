@@ -20,7 +20,7 @@ if (!is_404()) {
 ?>
 
 <!-- Footer -->
-<footer class="site-footer bg-gray-300">
+<footer class="site-footer bg-[#345C72]">
     <div class="container mx-auto pt-14 pb-8">
         <div class="site__footer__content flex flex-wrap lg:px-4 justify-center lg:justify-start">
             <div class="content w-full flex flex-wrap">
