@@ -15,7 +15,7 @@ get_header(); ?>
 <?php $background = get_field('background_categories', 'option');
 ?>
 
-<div class="single__header__collection bgSettings" style='background-image: url(<?php echo $background; ?>); '>
+<!-- <div class="single__header__collection bgSettings" style='background-image: url(<?php echo $background; ?>); '>
     <div class="container mx-auto">
         <div class="flex flex-wrap px-4">
             <div class="w-full header__collection">
@@ -25,7 +25,7 @@ get_header(); ?>
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <div class="container mx-auto">
     <div class="flex flex-wrap px-4 pt-8">
