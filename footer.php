@@ -26,7 +26,7 @@ if (!is_404()) {
             <div class="content w-full flex flex-wrap">
                 <div class="site__footer__logo w-full md:w-8/12 mx-auto lg:w-6/12 text-center lg:text-left mb-4">
                     <a href="<?php echo esc_url(get_bloginfo('url')); ?>">
-                        <?php $GETlogo = get_field('logo_site', 'option'); ?>
+                        <?php $GETlogo = get_field('logo_footer', 'option'); ?>
                         <?php if ($GETlogo) {
                             fps_get_Image($GETlogo);
                         } else {
