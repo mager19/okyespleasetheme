@@ -1029,6 +1029,7 @@ blockquote {
     }
 
     .subscription_form{
+        @apply justify-center !important;
         label{
             @apply w-full text-center !important; 
         }

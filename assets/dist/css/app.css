@@ -1572,6 +1572,9 @@ blockquote p {
 .pum-container .popmake-title {
   text-align: center !important;
 }
+.pum-container .subscription_form {
+  justify-content: center !important;
+}
 .pum-container .subscription_form label {
   width: 100% !important;
   text-align: center !important;
