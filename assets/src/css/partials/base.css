@@ -1016,3 +1016,15 @@ blockquote {
     height: 20px;
    }
 }
+
+.pum-container{
+    @apply bg-[#345C72];
+
+    .pum-title{
+        @apply text-center text-white;
+    }
+
+    label{
+        @apply text-center !important;
+    }
+}

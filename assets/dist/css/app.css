@@ -1560,6 +1560,18 @@ blockquote p {
     width: 20px;
     height: 20px;
 }
+.pum-container {
+  --tw-bg-opacity: 1;
+  background-color: rgb(52 92 114 / var(--tw-bg-opacity));
+}
+.pum-container .pum-title {
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.pum-container label {
+  text-align: center !important;
+}
 .site__nav ul {
   margin-bottom: 0px;
   display: flex;
