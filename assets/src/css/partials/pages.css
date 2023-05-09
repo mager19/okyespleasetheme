@@ -269,14 +269,14 @@
             @apply h-full flex flex-wrap content-center justify-center text-center;
 
             .title{
-                @apply text-[18px] lg:text-[22px];
+                @apply text-[16px] lg:text-[22px];
             }
         }
 
         .newsletter {
             @apply relative;
             form{
-                @apply mt-0;
+                @apply mt-0 md:mt-6 ;
     
                 .wpcf7-not-valid-tip{
                     @apply absolute bottom-2 right-2;

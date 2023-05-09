@@ -1659,7 +1659,7 @@ blockquote p {
   padding-right: 0.25rem !important;
   font-weight: 700 !important;
   --tw-text-opacity: 1 !important;
-  color: rgb(0 0 0 / var(--tw-text-opacity)) !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
     font-size: 14px !important;
 }
 .subscription_form label, .newsletter label {
@@ -2556,7 +2556,7 @@ blockquote p {
   text-align: center;
 }
 .homeGridContainer .item__homeGridCollecton-5 .content .title {
-  font-size: 18px;
+  font-size: 16px;
 }
 @media (min-width: 1024px) {
 
@@ -2569,6 +2569,12 @@ blockquote p {
 }
 .homeGridContainer .item__homeGridCollecton-5 .newsletter form {
   margin-top: 0px;
+}
+@media (min-width: 768px) {
+
+  .homeGridContainer .item__homeGridCollecton-5 .newsletter form {
+    margin-top: 1.5rem;
+  }
 }
 .homeGridContainer .item__homeGridCollecton-5 .newsletter form .wpcf7-not-valid-tip {
   position: absolute;
