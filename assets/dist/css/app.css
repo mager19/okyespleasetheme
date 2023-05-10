@@ -1590,13 +1590,19 @@ blockquote p {
   text-align: center !important;
 }
 .pum-container .subscription_form input[type="email"] {
-  margin-top: 2.5rem;
+  margin-top: 1.5rem;
   width: 320px;
 }
 @media (min-width: 768px) {
 
   .pum-container .subscription_form input[type="email"] {
     width: 550px;
+  }
+}
+@media (min-width: 1024px) {
+
+  .pum-container .subscription_form input[type="email"] {
+    margin-top: 2.5rem;
   }
 }
 .pum-container .subscription_form input[type="submit"] {
