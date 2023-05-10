@@ -1035,7 +1035,11 @@ blockquote {
         }
 
         input[type="email"]{
-            @apply w-[320px] md:w-[550px];
+            @apply w-[320px] md:w-[550px] mt-10;
+        }
+
+        input[type="submit"]{
+            @apply mt-10;
         }
     }
 }

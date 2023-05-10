@@ -1590,6 +1590,7 @@ blockquote p {
   text-align: center !important;
 }
 .pum-container .subscription_form input[type="email"] {
+  margin-top: 2.5rem;
   width: 320px;
 }
 @media (min-width: 768px) {
@@ -1597,6 +1598,9 @@ blockquote p {
   .pum-container .subscription_form input[type="email"] {
     width: 550px;
   }
+}
+.pum-container .subscription_form input[type="submit"] {
+  margin-top: 2.5rem;
 }
 .site__nav ul {
   margin-bottom: 0px;
