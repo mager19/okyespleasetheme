@@ -1018,7 +1018,7 @@ blockquote {
 }
 
 .pum-container{
-    @apply bg-[#345C72] py-10 lg:py-16;
+    @apply bg-[#345C72] py-10 lg:py-16 !important;
 
     .pum-title{
         @apply text-center text-white;
