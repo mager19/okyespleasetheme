@@ -1018,7 +1018,7 @@ blockquote {
 }
 
 .pum-container{
-    @apply bg-[#345C72];
+    @apply bg-[#345C72] py-10 lg:py-16;
 
     .pum-title{
         @apply text-center text-white;
@@ -1029,9 +1029,13 @@ blockquote {
     }
 
     .subscription_form{
-        @apply justify-center !important;
+        @apply justify-center mt-10 !important;
         label{
             @apply w-full text-center !important; 
+        }
+
+        input[type="email"]{
+            @apply w-[320px] md:w-[550px];
         }
     }
 }

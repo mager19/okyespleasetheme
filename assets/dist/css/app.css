@@ -1563,6 +1563,15 @@ blockquote p {
 .pum-container {
   --tw-bg-opacity: 1;
   background-color: rgb(52 92 114 / var(--tw-bg-opacity));
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+@media (min-width: 1024px) {
+
+  .pum-container {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
 }
 .pum-container .pum-title {
   text-align: center;
@@ -1573,11 +1582,21 @@ blockquote p {
   text-align: center !important;
 }
 .pum-container .subscription_form {
+  margin-top: 2.5rem !important;
   justify-content: center !important;
 }
 .pum-container .subscription_form label {
   width: 100% !important;
   text-align: center !important;
+}
+.pum-container .subscription_form input[type="email"] {
+  width: 320px;
+}
+@media (min-width: 768px) {
+
+  .pum-container .subscription_form input[type="email"] {
+    width: 550px;
+  }
 }
 .site__nav ul {
   margin-bottom: 0px;
