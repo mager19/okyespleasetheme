@@ -1589,6 +1589,8 @@ blockquote p {
 .pum-container .subscription_form input[type="email"] {
   margin-top: 1.5rem;
   width: 320px;
+  --tw-border-opacity: 1;
+  border-color: rgb(52 92 114 / var(--tw-border-opacity));
 }
 @media (min-width: 768px) {
 
@@ -1604,6 +1606,8 @@ blockquote p {
 }
 .pum-container .subscription_form input[type="submit"] {
   margin-top: 2.5rem;
+  --tw-border-opacity: 1;
+  border-color: rgb(52 92 114 / var(--tw-border-opacity));
 }
 .site__nav ul {
   margin-bottom: 0px;
