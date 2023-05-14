@@ -2543,6 +2543,10 @@ footer .subscription_form h3 {
 .item__search .title {
   margin-bottom: 0.25rem;
 }
+.subCategories {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .subCategories a {
   position: relative;
   font-weight: 600;

@@ -55,8 +55,8 @@ get_header(); ?>
                             <figure>
                                 <?php fps_get_Image($imageCat); ?>
                             </figure>
-                            <div class="content flex items-center justify-center pl-4">
-                                <h2 class="title mt-3 mb-1 flex items-center font-inter">
+                            <div class="content flex items-center justify-center px-4">
+                                <h2 class="title mt-3 mb-1 flex items-center font-inter text-center">
                                     <?php echo $term->name; ?>
                                     </h3>
                                     <p><?php echo wp_trim_words(get_the_content(), 15, '...'); ?></p>

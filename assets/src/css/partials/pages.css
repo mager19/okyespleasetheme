@@ -172,6 +172,7 @@
 }
 
 .subCategories {
+    @apply px-4;
     a {
         @apply text-dark-1 font-semibold hover:underline relative;
 
