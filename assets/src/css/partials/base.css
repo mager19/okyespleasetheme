@@ -1036,7 +1036,7 @@ blockquote {
     .subscription_form{
         @apply justify-center mt-10 !important;
         label{
-            @apply w-full text-center text-[#345C72] !important; 
+            @apply w-full text-center text-[#345C72] text-[14px] md:text-[18px] !important; 
         }
 
         input[type="email"]{
