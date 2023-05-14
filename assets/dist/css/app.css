@@ -1587,29 +1587,29 @@ blockquote p {
   color: rgb(52 92 114 / var(--tw-text-opacity)) !important;
 }
 .pum-container .subscription_form input[type="email"] {
-  margin-top: 1.5rem;
-  width: 320px;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(52 92 114 / var(--tw-border-opacity));
+  margin-top: 1.5rem !important;
+  width: 320px !important;
+  border-width: 1px !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(52 92 114 / var(--tw-border-opacity)) !important;
 }
 @media (min-width: 768px) {
 
   .pum-container .subscription_form input[type="email"] {
-    width: 550px;
+    width: 550px !important;
   }
 }
 @media (min-width: 1024px) {
 
   .pum-container .subscription_form input[type="email"] {
-    margin-top: 2.5rem;
+    margin-top: 2.5rem !important;
   }
 }
 .pum-container .subscription_form input[type="submit"] {
-  margin-top: 2.5rem;
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(52 92 114 / var(--tw-border-opacity));
+  margin-top: 2.5rem !important;
+  border-width: 1px !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(52 92 114 / var(--tw-border-opacity)) !important;
 }
 .site__nav ul {
   margin-bottom: 0px;
