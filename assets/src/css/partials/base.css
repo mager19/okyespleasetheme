@@ -1018,7 +1018,12 @@ blockquote {
 }
 
 .pum-container{
-    @apply bg-[#345C72] py-0 !important;
+    @apply bg-[#345C72] p-0 !important;
+    
+    figure{
+        @apply m-0 !important;
+    }
+   
 
     .pum-title{
         @apply text-center text-white;
