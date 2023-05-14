@@ -11,6 +11,18 @@
     @apply w-full;
 }
 
+footer{
+    .newsletter--left{
+        @apply hidden;
+    }
+
+    .subscription_form{
+        h3{
+            @apply hidden;
+        }
+    }
+}
+
 .footer-menu {
     ul {
         @apply ml-0 mt-4 mb-0 mx-auto text-center md:flex justify-between;

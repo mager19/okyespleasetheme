@@ -1663,6 +1663,12 @@ blockquote p {
 .menu-footer-container {
   width: 100%;
 }
+footer .newsletter--left {
+  display: none;
+}
+footer .subscription_form h3 {
+  display: none;
+}
 .footer-menu ul {
   margin-left: auto;
   margin-right: auto;
