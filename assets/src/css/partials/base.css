@@ -1041,10 +1041,12 @@ blockquote {
 
         input[type="email"]{
             @apply w-[320px] md:w-[550px] mt-6 lg:mt-10 border border-[#345C72] !important;
+            border:1px solid #345C72 !important;
         }
 
         input[type="submit"]{
             @apply mt-10 border border-[#345C72] !important;
+            border:1px solid #345C72 !important;
         }
     }
 }
