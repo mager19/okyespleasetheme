@@ -1606,14 +1606,14 @@ blockquote p {
   }
 }
 .pum-container .subscription_form input[type="email"]{
-            border:1px solid #345C72 !important;
+            border:2px solid #345C72 !important;
         }
 .pum-container .subscription_form input[type="submit"] {
   margin-top: 2.5rem !important;
   border-width: 1px !important;
   --tw-border-opacity: 1 !important;
   border-color: rgb(52 92 114 / var(--tw-border-opacity)) !important;
-            border:1px solid #345C72 !important;
+            border:2px solid #345C72 !important;
 }
 .site__nav ul {
   margin-bottom: 0px;
