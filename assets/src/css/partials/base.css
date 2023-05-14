@@ -1021,7 +1021,11 @@ blockquote {
     @apply bg-[#f8f7f7] p-0 !important;
 
     figure{
-        @apply m-0 h-[30vh] md:h-auto !important;
+        @apply m-0 !important;
+
+        img{
+            @apply h-28 md:h-full;            
+        }
     }
    
 

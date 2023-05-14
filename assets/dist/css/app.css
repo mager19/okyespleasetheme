@@ -1567,12 +1567,14 @@ blockquote p {
 }
 .pum-container figure {
   margin: 0px !important;
-  height: 30vh !important;
+}
+.pum-container figure img {
+  height: 7rem;
 }
 @media (min-width: 768px) {
 
-  .pum-container figure {
-    height: auto !important;
+  .pum-container figure img {
+    height: 100%;
   }
 }
 .pum-container .pum-title {
