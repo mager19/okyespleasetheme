@@ -1048,5 +1048,9 @@ blockquote {
             @apply mt-10 border border-[#345C72] !important;
             border:2px solid #345C72 !important;
         }
+
+        h3{
+            @apply text-[#345C72] text-[48px] !important;         
+        }
     }
 }

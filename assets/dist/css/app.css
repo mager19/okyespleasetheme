@@ -1615,6 +1615,11 @@ blockquote p {
   border-color: rgb(52 92 114 / var(--tw-border-opacity)) !important;
             border:2px solid #345C72 !important;
 }
+.pum-container .subscription_form h3 {
+  font-size: 48px !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(52 92 114 / var(--tw-text-opacity)) !important;
+}
 .site__nav ul {
   margin-bottom: 0px;
   display: flex;
@@ -2871,6 +2876,9 @@ blockquote p {
 }
 .pb-0 {
   padding-bottom: 0px;
+}
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 .pb-12 {
   padding-bottom: 3rem;
