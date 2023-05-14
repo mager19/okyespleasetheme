@@ -1057,6 +1057,8 @@ blockquote {
 
 .container__newsletter__modal {
     @apply flex flex-wrap md:flex-nowrap;
+
+    background: linear-gradient(90deg, rgba(205,255,216,1) 0%, rgba(148,185,255,1) 100%);
 }
 
 .pum-container{
