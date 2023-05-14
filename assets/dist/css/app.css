@@ -1626,6 +1626,16 @@ blockquote p {
     font-size: 48px !important;
   }
 }
+.container__newsletter__modal {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+
+  .container__newsletter__modal {
+    flex-wrap: nowrap;
+  }
+}
 .site__nav ul {
   margin-bottom: 0px;
   display: flex;
@@ -2801,6 +2811,9 @@ footer .subscription_form h3 {
 }
 .flex-wrap {
   flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
 }
 .content-center {
   align-content: center;

@@ -1054,3 +1054,7 @@ blockquote {
         }
     }
 }
+
+.container__newsletter__modal {
+    @apply flex flex-wrap md:flex-nowrap;
+}
