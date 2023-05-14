@@ -1653,7 +1653,7 @@ blockquote p {
 }
 @media (min-width: 768px){
 .container__newsletter__modal {
-        background: transparent
+        background: none !important
 }
     }
 .pum-container input[type="email"],  .pum-container input[type="submit"] {
