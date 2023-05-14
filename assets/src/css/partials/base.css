@@ -1050,7 +1050,7 @@ blockquote {
         }
 
         h3{
-            @apply text-[#345C72] text-[48px] !important;         
+            @apply text-[#345C72] text-[32px] md:text-[48px] !important;         
         }
     }
 }
