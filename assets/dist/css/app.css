@@ -1583,6 +1583,8 @@ blockquote p {
 .pum-container .subscription_form label {
   width: 100% !important;
   text-align: center !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(52 92 114 / var(--tw-text-opacity)) !important;
 }
 .pum-container .subscription_form input[type="email"] {
   margin-top: 1.5rem;
