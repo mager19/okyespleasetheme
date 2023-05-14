@@ -2552,22 +2552,27 @@ footer .subscription_form h3 {
 .subCategories a:hover {
   text-decoration-line: underline;
 }
-.subCategories a:not(:first-child) {
-            padding-left: 1rem;
-        }
-.subCategories a:not(:first-child):before {
+.subCategories a {
+
+        padding-right: 1rem;
+        /* &:not(:first-child) {
+            
+            
+        } */
+    }
+.subCategories a:after {
   --tw-bg-opacity: 1;
   background-color: rgb(78 79 83 / var(--tw-bg-opacity));
-                content: "";
-                display: block;
-                position: absolute;
-                width: 2px;
-                height: 100%;
-                top: 0;
-                bottom: 0;
-                left: 0;
-                margin-top: auto;
-                margin-bottom: auto;
+            content: "";
+            display: block;
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin-top: auto;
+            margin-bottom: auto;
 }
 .search-header form {
   position: relative;
