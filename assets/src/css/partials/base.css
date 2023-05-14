@@ -1020,6 +1020,15 @@ blockquote {
 .pum-container{
     @apply bg-[#f8f7f7] p-0 !important;
 
+    figure{
+        @apply m-0 !important;
+
+        img{
+            @apply h-28 w-full object-cover md:h-full !important;            
+        }
+    }
+   
+
     .pum-title{
         @apply text-center text-white;
     }
@@ -1048,20 +1057,16 @@ blockquote {
             @apply text-[#345C72] text-[32px] md:text-[48px] !important;         
         }
     }
-
-    figure{
-        @apply m-0 !important;
-
-        img{
-            @apply h-28 w-full object-cover md:h-full;            
-        }
-    }
 }
 
 .container__newsletter__modal {
     @apply flex flex-wrap md:flex-nowrap;
 
     background: linear-gradient(90deg, rgba(205,255,216,1) 0%, rgba(148,185,255,1) 100%);
+
+    @screen md{
+        background-color: transparent;
+    }
 }
 
 .pum-container{
