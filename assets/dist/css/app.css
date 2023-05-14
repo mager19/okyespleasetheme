@@ -1636,6 +1636,15 @@ blockquote p {
     flex-wrap: nowrap;
   }
 }
+.pum-container input[type="email"],  .pum-container input[type="submit"] {
+  margin-top: 1.25rem !important;
+}
+@media (min-width: 768px) {
+
+  .pum-container input[type="email"],  .pum-container input[type="submit"] {
+    margin-top: 1.75rem !important;
+  }
+}
 .site__nav ul {
   margin-bottom: 0px;
   display: flex;
