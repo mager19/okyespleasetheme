@@ -1565,18 +1565,6 @@ blockquote p {
   background-color: rgb(248 247 247 / var(--tw-bg-opacity)) !important;
   padding: 0px !important;
 }
-.pum-container figure {
-  margin: 0px !important;
-}
-.pum-container figure img {
-  height: 7rem;
-}
-@media (min-width: 768px) {
-
-  .pum-container figure img {
-    height: 100%;
-  }
-}
 .pum-container .pum-title {
   text-align: center;
   --tw-text-opacity: 1;
@@ -1632,6 +1620,21 @@ blockquote p {
 
   .pum-container .subscription_form h3 {
     font-size: 48px !important;
+  }
+}
+.pum-container figure {
+  margin: 0px !important;
+}
+.pum-container figure img {
+  height: 7rem;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (min-width: 768px) {
+
+  .pum-container figure img {
+    height: 100%;
   }
 }
 .container__newsletter__modal {

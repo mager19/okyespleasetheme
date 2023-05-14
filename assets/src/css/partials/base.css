@@ -1020,15 +1020,6 @@ blockquote {
 .pum-container{
     @apply bg-[#f8f7f7] p-0 !important;
 
-    figure{
-        @apply m-0 !important;
-
-        img{
-            @apply h-28 md:h-full;            
-        }
-    }
-   
-
     .pum-title{
         @apply text-center text-white;
     }
@@ -1055,6 +1046,14 @@ blockquote {
 
         h3{
             @apply text-[#345C72] text-[32px] md:text-[48px] !important;         
+        }
+    }
+
+    figure{
+        @apply m-0 !important;
+
+        img{
+            @apply h-28 w-full object-cover md:h-full;            
         }
     }
 }
