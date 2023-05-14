@@ -3,7 +3,7 @@ const plugin = require("tailwindcss/plugin");
 module.exports = {
     content: ["./*.php", "./*/*.php", "./assets/**/*.js"],
 
-    safelist: ["pb-10"],
+    safelist: ["pb-10", "hidden"],
 
     theme: {
         extend: {
