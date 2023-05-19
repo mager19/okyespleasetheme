@@ -175,7 +175,7 @@
     .item__C{
         @apply relative;
         &:not(:last-child) {            
-            padding-right: 1rem;
+
             &:after {
                 @apply bg-dark-1;
                 content: "";

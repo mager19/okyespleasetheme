@@ -2517,9 +2517,6 @@ blockquote p {
 .subCategories .item__C {
   position: relative;
 }
-.subCategories .item__C:not(:last-child) {            
-            padding-right: 1rem;
-        }
 .subCategories .item__C:not(:last-child):after {
   --tw-bg-opacity: 1;
   background-color: rgb(78 79 83 / var(--tw-bg-opacity));
