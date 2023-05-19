@@ -1840,12 +1840,6 @@ blockquote p {
 .newsletter__footer .newsletter form, .newsletter__footer .subscription_form {
   margin-top: 0px !important;
 }
-@media (min-width: 768px) {
-
-  .newsletter__footer .newsletter form, .newsletter__footer .subscription_form {
-    margin-top: 1rem !important;
-  }
-}
 @font-face {
     font-family: "icomoon";
     src: url(../css/fonts/icomoon.eot);

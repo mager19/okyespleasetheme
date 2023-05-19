@@ -46,7 +46,7 @@ if (!is_404()) {
 
                 <div class="site-footer__bottom w-full lg:w-6/12 flex justify-center lg:justify-end px-2">
                     <div class="newsletter newsletter__footer">
-                        <label class="labelFooter font-inter pt-4 text-[14px] md:text-[18px] text-white mb-0 inline-flex justify-center md:justify-end">
+                        <label class="labelFooter font-inter pt-4 text-[14px] md:text-[18px] text-white mb-0 flex justify-center md:justify-end">
                         Sign Up for the OKYesPlease Newsletter.
                         </label>
                         <?php the_field('newsletter_form', 'option'); ?>
