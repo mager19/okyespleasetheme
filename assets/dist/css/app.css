@@ -2672,6 +2672,9 @@ blockquote p {
     text-align: right !important;
   }
 }
+.newsletter__footer .labelModal {
+  display: none;
+}
 .visible {
   visibility: visible;
 }
@@ -2718,6 +2721,12 @@ blockquote p {
 .mt-8 {
   margin-top: 2rem;
 }
+.mb-12 {
+  margin-bottom: 3rem;
+}
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
 .block {
   display: block;
 }
@@ -2729,6 +2738,9 @@ blockquote p {
 }
 .flex {
   display: flex;
+}
+.inline-flex {
+  display: inline-flex;
 }
 .table {
   display: table;
@@ -2902,6 +2914,9 @@ blockquote p {
 .font-inter {
   font-family: Open Sans, sans-serif;
 }
+.text-\[14px\] {
+  font-size: 14px;
+}
 .font-bold {
   font-weight: 700;
 }
@@ -2991,6 +3006,10 @@ blockquote p {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:text-\[18px\] {
+    font-size: 18px;
   }
 }
 @media (min-width: 1024px) {

@@ -313,3 +313,9 @@
 .subscription_form label {
     @apply lg:text-right !important;
 }
+
+.newsletter__footer{
+    .labelModal{
+        @apply hidden;
+    }
+}
