@@ -2480,6 +2480,26 @@ blockquote p {
 .item__search .title {
   margin-bottom: 0.25rem;
 }
+.subCategories .item__C {
+  position: relative;
+}
+.subCategories .item__C:not(:last-child) {            
+            padding-right: 1rem;
+        }
+.subCategories .item__C:not(:last-child):after {
+  --tw-bg-opacity: 1;
+  background-color: rgb(78 79 83 / var(--tw-bg-opacity));
+                content: "";
+                display: block;
+                position: absolute;
+                width: 2px;
+                height: 100%;
+                top: 0;
+                bottom: 0;
+                right: 0;
+                margin-top: auto;
+                margin-bottom: auto;
+}
 .subCategories a {
   position: relative;
   font-weight: 600;
@@ -2492,21 +2512,8 @@ blockquote p {
 .subCategories a {
 
         padding-right: 1rem;
+        
     }
-.subCategories a:after {
-  --tw-bg-opacity: 1;
-  background-color: rgb(78 79 83 / var(--tw-bg-opacity));
-            content: "";
-            display: block;
-            position: absolute;
-            width: 2px;
-            height: 100%;
-            top: 0;
-            bottom: 0;
-            right: 0;
-            margin-top: auto;
-            margin-bottom: auto;
-}
 .search-header form {
   position: relative;
   display: flex;
@@ -2850,6 +2857,10 @@ blockquote p {
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
+}
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 .py-14 {
   padding-top: 3.5rem;

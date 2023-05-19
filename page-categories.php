@@ -64,7 +64,7 @@ get_header(); ?>
                         </a>
                     </div>
 
-                    <div class="w-full flex-wrap subCategories lg:w-7/12 flex justify-center content-center  gap-4">
+                    <div class="w-full flex-wrap subCategories lg:w-7/12 flex justify-center content-center gap-4 px-8">
                         <?php $childs = get_terms(array(
                             'taxonomy' => 'category_product',
                             'parent'   => $term->term_id,
