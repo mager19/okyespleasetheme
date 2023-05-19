@@ -146,4 +146,8 @@
     .newsletter form, .subscription_form{
         @apply mt-0 !important;
     }
+
+    .form__container{
+        @apply mt-0 md:mt-4 !important;
+    }
 }

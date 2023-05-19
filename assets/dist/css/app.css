@@ -1840,6 +1840,15 @@ blockquote p {
 .newsletter__footer .newsletter form, .newsletter__footer .subscription_form {
   margin-top: 0px !important;
 }
+.newsletter__footer .form__container {
+  margin-top: 0px !important;
+}
+@media (min-width: 768px) {
+
+  .newsletter__footer .form__container {
+    margin-top: 1rem !important;
+  }
+}
 @font-face {
     font-family: "icomoon";
     src: url(../css/fonts/icomoon.eot);
@@ -2754,9 +2763,6 @@ blockquote p {
 }
 .flex {
   display: flex;
-}
-.inline-flex {
-  display: inline-flex;
 }
 .table {
   display: table;
