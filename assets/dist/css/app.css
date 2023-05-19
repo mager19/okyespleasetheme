@@ -2629,7 +2629,7 @@ blockquote p {
 @media (min-width: 768px) {
 
   .homeGridContainer .item__homeGridCollecton-5 .newsletter form {
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
   }
 }
 .homeGridContainer .item__homeGridCollecton-5 .newsletter form .wpcf7-not-valid-tip {
