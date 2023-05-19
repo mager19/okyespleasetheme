@@ -24,6 +24,9 @@
     <meta name="msapplication-TileColor" content="#d65a45">
     <meta name="theme-color" content="#d65a45">
 
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/3df0ca1a4b4d0ebca305273fa/36ce9572ed8315bac76054728.js");
+    </script>
+
     <?php wp_head(); ?>
 
 </head>
