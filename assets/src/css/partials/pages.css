@@ -281,7 +281,7 @@
         .newsletter {
             @apply relative;
             form{
-                @apply mt-0 md:mt-6 ;
+                @apply mt-0 md:mt-6;
     
                 .wpcf7-not-valid-tip{
                     @apply absolute bottom-2 right-2;
@@ -305,7 +305,7 @@
     }
 
     input[type="submit"] {
-        @apply mt-3 w-full lg:mt-0 xl:w-auto !important;
+        @apply mt-0 w-full lg:mt-0 xl:w-auto !important;
     }
 }
 

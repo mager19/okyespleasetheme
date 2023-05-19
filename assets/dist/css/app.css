@@ -2656,7 +2656,7 @@ blockquote p {
   }
 }
 .homeGridContainer input[type="submit"] {
-  margin-top: 0.75rem !important;
+  margin-top: 0px !important;
   width: 100% !important;
 }
 @media (min-width: 1024px) {
