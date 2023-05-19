@@ -23,7 +23,7 @@ if (!is_404()) {
 <footer class="site-footer bg-[#345C72]">
     <div class="container mx-auto pt-14 pb-8">
         <div class="site__footer__content flex flex-wrap lg:px-4 justify-center lg:justify-start">
-            <div class="content w-full flex flex-wrap">
+            <div class="content w-full flex flex-wrap items-center">
                 <div class="site__footer__logo w-full md:w-8/12 mx-auto lg:w-6/12 text-center lg:text-left mb-4">
                     <a href="<?php echo esc_url(get_bloginfo('url')); ?>">
                         <?php $GETlogo = get_field('logo_footer', 'option'); ?>
