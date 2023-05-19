@@ -38,7 +38,7 @@ get_header(); ?>
                                 ?>
                             </figure>
                             <div class="content">
-                                <h3 class="title mt-3 mb-1">
+                                <h3 class="title mt-3 mb-1 font-inter font-semibold">
                                     <?php the_title(); ?>
                                 </h3>
                                 <!-- hide paragraph
