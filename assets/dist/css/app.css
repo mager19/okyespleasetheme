@@ -2818,6 +2818,9 @@ blockquote p {
 .items-start {
   align-items: flex-start;
 }
+.items-end {
+  align-items: flex-end;
+}
 .items-center {
   align-items: center;
 }
@@ -2941,9 +2944,6 @@ blockquote p {
 }
 .font-semibold {
   font-weight: 600;
-}
-.font-normal {
-  font-weight: 400;
 }
 .uppercase {
   text-transform: uppercase;
