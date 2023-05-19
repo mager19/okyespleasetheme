@@ -305,7 +305,7 @@
     }
 
     input[type="submit"] {
-        @apply mt-0 w-full lg:mt-0 xl:w-auto !important;
+        @apply mt-2 w-full lg:mt-0 xl:w-auto !important;
     }
 }
 
