@@ -126,3 +126,20 @@
         @apply mb-0 text-white;
     }
 }
+
+
+.newsletter__footer{
+    .labelModal{
+        @apply hidden;
+    }
+
+
+    input {
+        @apply pl-2 mt-0 lg:mt-2 !important;
+    }
+
+
+    .newsletter form input, .subscription_form input input{
+        @apply mt-0 md:mt-6 !important;
+    }
+}

@@ -1815,6 +1815,28 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.newsletter__footer .labelModal {
+  display: none;
+}
+.newsletter__footer input {
+  margin-top: 0px !important;
+  padding-left: 0.5rem !important;
+}
+@media (min-width: 1024px) {
+
+  .newsletter__footer input {
+    margin-top: 0.5rem !important;
+  }
+}
+.newsletter__footer .newsletter form input, .newsletter__footer .subscription_form input input {
+  margin-top: 0px !important;
+}
+@media (min-width: 768px) {
+
+  .newsletter__footer .newsletter form input, .newsletter__footer .subscription_form input input {
+    margin-top: 1.5rem !important;
+  }
+}
 @font-face {
     font-family: "icomoon";
     src: url(../css/fonts/icomoon.eot);
@@ -2672,9 +2694,6 @@ blockquote p {
     text-align: right !important;
   }
 }
-.newsletter__footer .labelModal {
-  display: none;
-}
 .visible {
   visibility: visible;
 }
@@ -2720,12 +2739,6 @@ blockquote p {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-12 {
-  margin-bottom: 3rem;
-}
-.mb-2 {
-  margin-bottom: 0.5rem;
 }
 .block {
   display: block;
