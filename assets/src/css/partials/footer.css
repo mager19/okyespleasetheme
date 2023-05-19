@@ -142,4 +142,8 @@
     .newsletter form input, .subscription_form input input{
         @apply mt-0 md:mt-6 !important;
     }
+
+    .newsletter form, .subscription_form{
+        @apply mt-0 md:mt-4 !important;
+    }
 }
