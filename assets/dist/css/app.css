@@ -2659,15 +2659,10 @@ blockquote p {
   margin-top: 0.5rem !important;
   width: 100% !important;
 }
-@media (min-width: 1024px) {
-
-  .homeGridContainer input[type="submit"] {
-    margin-top: 0px !important;
-  }
-}
 @media (min-width: 1280px) {
 
   .homeGridContainer input[type="submit"] {
+    margin-top: 0px !important;
     width: auto !important;
   }
 }
