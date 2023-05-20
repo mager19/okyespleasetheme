@@ -48,7 +48,7 @@ get_header(); ?>
                 setup_postdata($term);
             ?>
                 <div class="item__collection__container w-full flex flex-wrap px-4">
-                    <div class="item__collection__cat w-full lg:w-5/12">
+                    <div class="item__collection__cat w-full lg:w-5/12 grid place-content-center">
                         <a href="<?php echo esc_url(get_bloginfo('url'));  ?>/category_product/<?php echo $term->slug; ?>/">
                             <?php $imageCat = get_field('category_image', 'term_' . $term->term_id);
                             ?>
@@ -58,8 +58,7 @@ get_header(); ?>
                             <div class="content flex items-center justify-center pl-4">
                                 <h2 class="title mt-3 mb-1 flex items-center font-inter text-center">
                                     <?php echo $term->name; ?>
-                                    </h3>
-                                    <p><?php echo wp_trim_words(get_the_content(), 15, '...'); ?></p>
+                                </h2>
                             </div>
                         </a>
                     </div>
