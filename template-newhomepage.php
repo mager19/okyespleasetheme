@@ -55,7 +55,7 @@ get_header(); ?>
                 <div class="newsletter__home item__homeGridCollecton-5 bg-[#345C72]">
                     <div class="content px-4">
                         <h3 class="title mb-0 lg:max-w-[600px] text-white ont-inter font-semibold">
-                            Sign up for the OKYesPlease newsletter to receive a weekly dose of window shopping delivered to your inbox.
+                            Sign up for the OKYesPlease newsletter to receive a weekly dose of window shopping delivered to your inbox
                         </h3>
 
                         <div class="newsletter">
