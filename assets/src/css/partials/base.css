@@ -1057,7 +1057,11 @@ blockquote {
     }
 
     .mc4wp-success {
-        @apply bg-secondary pr-1 text-black;
+        @apply bg-secondary pr-1;
+
+        p {
+            @apply text-black !important;
+        }
     }
 }
 
@@ -1071,6 +1075,10 @@ footer {
     }
 
     .mc4wp-success {
-        @apply bg-secondary pr-1 text-black;
+        @apply bg-secondary pr-1;
+
+        p {
+            @apply text-black !important;
+        }
     }
 }
