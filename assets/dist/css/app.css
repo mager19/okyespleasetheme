@@ -1625,7 +1625,9 @@ blockquote p {
 .newsletter__home .mc4wp-success {
   --tw-bg-opacity: 1;
   background-color: rgb(231 207 196 / var(--tw-bg-opacity));
-  padding-right: 0px;
+  padding-right: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 footer .mc4wp-alert {
   margin-top: 0.5rem;
@@ -1642,7 +1644,9 @@ footer .mc4wp-alert p {
 footer .mc4wp-success {
   --tw-bg-opacity: 1;
   background-color: rgb(231 207 196 / var(--tw-bg-opacity));
-  padding-right: 0px;
+  padding-right: 0.25rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 .site__nav ul {
   margin-bottom: 0px;
