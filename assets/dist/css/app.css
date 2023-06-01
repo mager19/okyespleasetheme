@@ -1608,15 +1608,15 @@ blockquote p {
 .pum-container .subscription_form input[type="submit"] {
   margin-top: 2.5rem;
 }
-.mc4wp-form-error {
-    justify-content: center !important;
-}
+.newsletter__home .mc4wp-form-error {
+        justify-content: center !important;
+    }
 .newsletter__home .mc4wp-alert {
   margin-top: 0.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(214 89 89 / var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .newsletter__home .mc4wp-alert p {
   --tw-text-opacity: 1;

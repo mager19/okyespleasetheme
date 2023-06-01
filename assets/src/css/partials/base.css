@@ -1043,14 +1043,16 @@ blockquote {
     }
 }
 
-.mc4wp-form-error {
-    justify-content: center !important;
-}
+.newsletter__home {
+    .mc4wp-form-error {
+        justify-content: center !important;
+    }
 
-.newsletter__home .mc4wp-alert {
-    @apply mt-2 bg-primary-hover px-4;
+    .mc4wp-alert {
+        @apply mt-2 bg-primary-hover px-3;
 
-    p {
-        @apply text-white;
+        p {
+            @apply text-white;
+        }
     }
 }
