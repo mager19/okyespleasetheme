@@ -1002,44 +1002,47 @@ blockquote {
     }
 }
 
-
-.custom-pagination{
+.custom-pagination {
     @apply text-center mt-8;
-   a{
-    @apply text-gray-400 visited:text-gray-400 no-underline !important;
-   } 
+    a {
+        @apply text-gray-400 visited:text-gray-400 no-underline !important;
+    }
 
-   .current{
-    @apply bg-dark-1 text-white inline-flex justify-center items-center;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-   }
+    .current {
+        @apply bg-dark-1 text-white inline-flex justify-center items-center;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+    }
 }
 
-.pum-container{
+.pum-container {
     @apply bg-[#345C72] py-10 lg:py-16 !important;
 
-    .pum-title{
+    .pum-title {
         @apply text-center text-white;
     }
 
-    .popmake-title{
+    .popmake-title {
         @apply text-center !important;
     }
 
-    .subscription_form{
+    .subscription_form {
         @apply justify-center mt-10 !important;
-        label{
-            @apply w-full text-center !important; 
+        label {
+            @apply w-full text-center !important;
         }
 
-        input[type="email"]{
+        input[type="email"] {
             @apply w-[320px] md:w-[550px] mt-6 lg:mt-10;
         }
 
-        input[type="submit"]{
+        input[type="submit"] {
             @apply mt-10;
         }
     }
+}
+
+.mc4wp-form-error {
+    justify-content: center !important;
 }

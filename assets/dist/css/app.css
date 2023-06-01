@@ -1556,9 +1556,9 @@ blockquote p {
   background-color: rgb(78 79 83 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
 }
 .pum-container {
   --tw-bg-opacity: 1 !important;
@@ -1607,6 +1607,9 @@ blockquote p {
 }
 .pum-container .subscription_form input[type="submit"] {
   margin-top: 2.5rem;
+}
+.mc4wp-form-error {
+    justify-content: center !important;
 }
 .site__nav ul {
   margin-bottom: 0px;
