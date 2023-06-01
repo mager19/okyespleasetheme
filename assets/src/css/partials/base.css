@@ -1070,7 +1070,7 @@ footer {
         @apply mt-2 bg-primary-hover px-3;
 
         p {
-            @apply text-white text-right !important;
+            @apply text-white lg:text-right !important;
         }
     }
 

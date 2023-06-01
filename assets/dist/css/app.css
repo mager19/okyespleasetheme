@@ -1639,9 +1639,14 @@ footer .mc4wp-alert {
   padding-right: 0.75rem;
 }
 footer .mc4wp-alert p {
-  text-align: right !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+@media (min-width: 1024px) {
+
+  footer .mc4wp-alert p {
+    text-align: right !important;
+  }
 }
 footer .mc4wp-success {
   --tw-bg-opacity: 1;
