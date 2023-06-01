@@ -1056,3 +1056,13 @@ blockquote {
         }
     }
 }
+
+footer {
+    .mc4wp-alert {
+        @apply mt-2 bg-primary-hover px-3;
+
+        p {
+            @apply text-white;
+        }
+    }
+}
