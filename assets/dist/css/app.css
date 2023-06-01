@@ -1622,6 +1622,11 @@ blockquote p {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
+.newsletter__home .mc4wp-success {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 207 196 / var(--tw-bg-opacity));
+  padding-right: 0px;
+}
 footer .mc4wp-alert {
   margin-top: 0.5rem;
   --tw-bg-opacity: 1;
@@ -1630,8 +1635,14 @@ footer .mc4wp-alert {
   padding-right: 0.75rem;
 }
 footer .mc4wp-alert p {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  text-align: right !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+footer .mc4wp-success {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 207 196 / var(--tw-bg-opacity));
+  padding-right: 0px;
 }
 .site__nav ul {
   margin-bottom: 0px;

@@ -1055,6 +1055,10 @@ blockquote {
             @apply text-white;
         }
     }
+
+    .mc4wp-success {
+        @apply bg-secondary pr-0;
+    }
 }
 
 footer {
@@ -1062,7 +1066,11 @@ footer {
         @apply mt-2 bg-primary-hover px-3;
 
         p {
-            @apply text-white;
+            @apply text-white text-right !important;
         }
+    }
+
+    .mc4wp-success {
+        @apply bg-secondary pr-0;
     }
 }
